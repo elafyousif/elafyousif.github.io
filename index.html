@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Razan Yousif — Architecture Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F2EE}
+*{box-sizing:border-box}
+a{color:#2F5D46}a:hover{color:#1C3B2C}
+.card img{transition:transform .6s ease}
+.card:hover img{transform:scale(1.04)}
+input,textarea,select,button{font:inherit}
+[dir="rtl"] *{letter-spacing:0 !important}
+.hero-bg{background:linear-gradient(90deg,rgba(14,22,18,.86) 0%,rgba(14,22,18,.62) 45%,rgba(14,22,18,.25) 100%),url(images/hero-vessel.jpg) center/cover no-repeat}
+[dir="rtl"] .hero-bg{background:linear-gradient(270deg,rgba(14,22,18,.86) 0%,rgba(14,22,18,.62) 45%,rgba(14,22,18,.25) 100%),url(images/hero-vessel.jpg) center/cover no-repeat}
+[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3{line-height:1.3 !important}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div dir="ltr" lang="en" style="font-family: Inter, 'IBM Plex Sans Arabic', system-ui, sans-serif; color: #14201A; background: #F3F2EE; width: 100%">
+
+<!-- NAV -->
+<header style="position: sticky; top: 0; z-index: 10; background: rgba(243,242,238,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid #DEDCD3">
+<nav style="max-width: 1280px; margin: 0 auto; padding: 16px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #14201A">
+<span aria-hidden="true" style="width: 38px; height: 38px; border-radius: 50%; background: #1C3B2C; color: #CBB27A; display: inline-flex; align-items: center; justify-content: center; font-family: Archivo, sans-serif; font-weight: 800; font-size: 15px">RY</span>
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 19px; letter-spacing: 0.04em">RAZAN YOUSIF</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; font-weight: 500">
+<a href="#about" style="color: #14201A; text-decoration: none">About</a>
+<a href="#expertise" style="color: #14201A; text-decoration: none">Expertise</a>
+<a href="#work" style="color: #14201A; text-decoration: none">Projects</a>
+<a href="#experience" style="color: #14201A; text-decoration: none">Experience</a>
+<a href="#skills" style="color: #14201A; text-decoration: none">Skills</a>
+</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<a href="index-ar.html" aria-label="Switch to Arabic" style="min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid #1C3B2C; background: transparent; color: #1C3B2C; font-weight: 600; font-size: 15px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path></svg>العربية</a>
+<a href="#contact" style="background: #1C3B2C; color: #F3F2EE; text-decoration: none; padding: 0 22px; border-radius: 999px; font-weight: 600; font-size: 15px; min-height: 44px; display: inline-flex; align-items: center">Get in touch</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero-bg" style="position: relative; color: #FFFFFF">
+<div style="max-width: 1280px; margin: 0 auto; padding: 120px 32px 96px; min-height: 760px; display: flex; flex-direction: column; justify-content: flex-end; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 24px; max-width: 720px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #F1D58A">Architecture Engineer — Riyadh, Saudi Arabia</p>
+<h1 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(56px, 8vw, 112px); line-height: 0.95; letter-spacing: -0.02em; color: #FFFFFF">Razan Yousif</h1>
+<p style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 600; font-size: clamp(22px, 2.2vw, 28px); line-height: 1.35; color: #FFFFFF; max-width: 600px">Designing buildings, landscapes and interiors that are beautiful, buildable and code-compliant.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.7; color: #E8E8E2; max-width: 600px">Architectural engineer experienced in design development, site supervision and technical coordination — reviewing specifications, ensuring code compliance and supporting construction from concept to handover.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="#work" style="background: #F1D58A; color: #14201A; text-decoration: none; padding: 16px 28px; border-radius: 999px; font-weight: 600; min-height: 44px">View my work</a>
+<a href="#contact" style="border: 1.5px solid #FFFFFF; color: #FFFFFF; text-decoration: none; padding: 15px 28px; border-radius: 999px; font-weight: 600; min-height: 44px">Contact me</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; border-top: 1px solid rgba(255,255,255,0.35); padding-top: 24px">
+
+<div><div style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; color: #FFFFFF">Since 2017</div><div style="font-size: 14px; color: #E8E8E2">Professional practice</div></div>
+
+<div><div style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; color: #FFFFFF">7</div><div style="font-size: 14px; color: #E8E8E2">Companies in KSA &amp; Sudan</div></div>
+
+<div><div style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; color: #FFFFFF">B.Sc. (Hons)</div><div style="font-size: 14px; color: #E8E8E2">Architecture &amp; Built Environment</div></div>
+
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" style="background: #1C3B2C; color: #F3F2EE">
+<div style="max-width: 1280px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
+<img src="images/street.jpg" alt="Streetscape design with cycle lanes and trees" style="flex: 1 1 520px; min-width: 0; width: 100%; height: 520px; object-fit: cover; border-radius: 24px">
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #CBB27A">About me</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(34px, 4vw, 50px); line-height: 1.05">From the drawing board to the site — and back again.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.75; color: #D6DDD8">I’m an architectural engineer based in Riyadh with experience across architecture, landscape, materials and procurement roles in Saudi Arabia and Sudan. My work moves between design and construction: developing designs, coordinating multidisciplinary teams, and making sure what gets built matches the drawings, the specifications and the code.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.75; color: #D6DDD8">I care about sustainable material choices, efficient layouts and façades that look good and get approved quickly.</p>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; font-size: 16px">
+
+<li style="display: flex; gap: 10px"><span style="color: #CBB27A">—</span>Design development</li>
+
+<li style="display: flex; gap: 10px"><span style="color: #CBB27A">—</span>Site supervision</li>
+
+<li style="display: flex; gap: 10px"><span style="color: #CBB27A">—</span>Technical coordination</li>
+
+<li style="display: flex; gap: 10px"><span style="color: #CBB27A">—</span>Code compliance</li>
+
+</ul>
+<div style="margin-top: 8px; background: rgba(243,242,238,0.06); border: 1px solid #3E5247; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 20px">CV at a glance</span>
+<a href="images/Razan_Yousif_CV.pdf" download="Razan_Yousif_CV.pdf" target="_blank" style="background: #CBB27A; color: #14201A; text-decoration: none; padding: 0 20px; min-height: 44px; border-radius: 999px; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path></svg>Download CV (PDF)</a>
+</div>
+<dl style="margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 24px; font-size: 15px">
+
+<div><dt style="color: #CBB27A; font-weight: 600; font-size: 13px">Current role</dt><dd style="margin: 4px 0 0; color: #F3F2EE">Architecture Engineer, Almadar Aloula Engineering Consultant</dd></div>
+
+<div><dt style="color: #CBB27A; font-weight: 600; font-size: 13px">Education</dt><dd style="margin: 4px 0 0; color: #F3F2EE">B.Sc. (Hons) Architecture &amp; Built Environment, Omdurman Ahlia</dd></div>
+
+<div><dt style="color: #CBB27A; font-weight: 600; font-size: 13px">Experience</dt><dd style="margin: 4px 0 0; color: #F3F2EE">2017 — present · KSA &amp; Sudan</dd></div>
+
+<div><dt style="color: #CBB27A; font-weight: 600; font-size: 13px">Languages</dt><dd style="margin: 4px 0 0; color: #F3F2EE">Arabic, English</dd></div>
+
+</dl>
+</div>
+</div>
+</div>
+</section>
+
+<!-- EXPERTISE -->
+<section id="expertise" style="max-width: 1280px; margin: 0 auto; padding: 96px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 48px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 640px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2F5D46">What I do</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(34px, 4vw, 52px); line-height: 1.05">Areas of expertise</h2>
+</div>
+<p style="margin: 0; max-width: 420px; font-size: 17px; line-height: 1.6; color: #3C4A42">Hands-on experience across the full project cycle — design, materials, procurement and delivery on site.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px">
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">01</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">Architectural design</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">Building layouts, façades and design development aligned with safety regulations and local building codes.</p>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">02</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">Landscape engineering</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">Landscape concepts, planting schemes, hardscape, grading, drainage and stormwater solutions.</p>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">03</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">Site supervision &amp; QA</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">Site inspections, quality control, compliance and progress reports for contractors and consultants.</p>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">04</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">Materials engineering</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">On-site material inspection, certification checks and mix adjustments that protect structural integrity.</p>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">05</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">Procurement</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">Reviewing specs, drawings and BOQs; sourcing, supplier evaluation and delivery tracking (RMPMIS).</p>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-family: Archivo, sans-serif; font-weight: 700; font-size: 15px; color: #2F5D46">06</div>
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 23px">BIM &amp; 3D visualisation</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.65; color: #4A5750">Revit-based BIM coordination and photoreal renders in Lumion, Twinmotion, D5 and 3ds Max.</p>
+</article>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="work" style="background: #E9E7E0">
+<div style="max-width: 1280px; margin: 0 auto; padding: 96px 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 36px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2F5D46">Portfolio</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(34px, 4vw, 52px); line-height: 1.05">Design work &amp; visualisations</h2>
+</div>
+<div role="group" aria-label="Filter projects" style="display: flex; flex-wrap: wrap; gap: 10px">
+
+<button type="button" aria-pressed="true" style="min-height: 44px; padding: 0 20px; border-radius: 999px; font-weight: 600; font-size: 15px; cursor: pointer; border: 1.5px solid #1C3B2C; background: #1C3B2C; color: #F3F2EE">All</button>
+
+<button type="button" aria-pressed="false" style="min-height: 44px; padding: 0 20px; border-radius: 999px; font-weight: 600; font-size: 15px; cursor: pointer; border: 1.5px solid #1C3B2C; background: transparent; color: #1C3B2C">Architecture</button>
+
+<button type="button" aria-pressed="false" style="min-height: 44px; padding: 0 20px; border-radius: 999px; font-weight: 600; font-size: 15px; cursor: pointer; border: 1.5px solid #1C3B2C; background: transparent; color: #1C3B2C">Interiors</button>
+
+<button type="button" aria-pressed="false" style="min-height: 44px; padding: 0 20px; border-radius: 999px; font-weight: 600; font-size: 15px; cursor: pointer; border: 1.5px solid #1C3B2C; background: transparent; color: #1C3B2C">Landscape &amp; Urban</button>
+
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px">
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/villa-glass.jpg" alt="Timber &amp; Glass Villa" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Timber &amp; Glass Villa</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Architecture</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/villa-stone.jpg" alt="Stone &amp; Timber Residence" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Stone &amp; Timber Residence</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Architecture</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/apartments.jpg" alt="Wave Apartments" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Wave Apartments</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Architecture</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/villa-balcony.jpg" alt="Garden Terrace Villa" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Garden Terrace Villa</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Architecture</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/residence.jpg" alt="Residential Block &amp; Plaza" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Residential Block &amp; Plaza</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Landscape &amp; Urban</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/plaza.jpg" alt="Neighbourhood Plaza" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Neighbourhood Plaza</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Landscape &amp; Urban</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/street.jpg" alt="Al Amal Street" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Al Amal Street</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Landscape &amp; Urban</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/living.jpg" alt="Emerald Living Room" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Emerald Living Room</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Interiors</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/bed-stone.jpg" alt="Stone Wall Bedroom" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Stone Wall Bedroom</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Interiors</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/bed-wood.jpg" alt="Timber Suite" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Timber Suite</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Interiors</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/bed-tropical.jpg" alt="Tropical Bedroom" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Tropical Bedroom</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Interiors</span>
+</figcaption>
+</figure>
+
+<figure class="card" style="margin: 0; background: #FFFFFF; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<div style="overflow: hidden; height: 300px"><img src="images/office.jpg" alt="Toy Company Office" style="width: 100%; height: 300px; object-fit: cover; display: block"></div>
+<figcaption style="padding: 20px 24px 24px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 19px">Toy Company Office</span>
+<span style="font-size: 13px; font-weight: 600; color: #2F5D46; white-space: nowrap">Interiors</span>
+</figcaption>
+</figure>
+
+</div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="max-width: 1280px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2F5D46">Career</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(34px, 4vw, 52px); line-height: 1.05">Experience</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #3C4A42">Consultancy, contracting and on-site roles across Riyadh and Sudan.</p>
+</div>
+<ol style="flex: 999 1 640px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">May 2026 — Present</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architecture Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">Almadar Aloula Engineering Consultant · Riyadh</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Working with supervision consultants to compile contractor compliance and site progress reports for municipality infrastructure projects.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Nov 2025</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Materials Engineer — On site, Wadi Safar</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">Baumat Company · Riyadh</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">On-site material inspections and strict quality control; corrected mixing ratios on site to improve structural integrity and reduce deviations from specifications.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Jul 2024 — Jul 2025</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architecture, Landscape &amp; Procurement Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">Alodood Contracting Company · KSA</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Designed façades and architectural frameworks using BIM; developed landscape concepts, grading and drainage; managed BOQs, supplier sourcing and deliveries.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Nov 2022 — Apr 2023</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architecture Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">ORA Company of Construction · Sudan</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Architectural designs with sustainable solutions, site assessments and optimised building layouts.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Aug 2021 — Aug 2022</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architectural Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">Free Conception Company · Sudan</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Constructability reviews, interdisciplinary coordination and quality-assurance inspections.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Aug 2018 — Aug 2019</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architecture Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">OMGA Company · Sudan</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Building layouts focused on safety and energy efficiency; led QA processes and technical guidelines.</p>
+</div>
+</li>
+
+<li style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 26px 0; border-top: 1px solid #D4D1C6">
+<div style="flex: 0 0 190px; font-size: 14px; font-weight: 600; color: #2F5D46; padding-top: 4px">Jan 2017 — Jan 2018</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 700; font-size: 21px">Architectural Engineer</h3>
+<div style="font-size: 15px; font-weight: 600; color: #55625A">Basunda Engineering and Contracting · Khartoum</div>
+<p style="margin: 4px 0 0; font-size: 16px; line-height: 1.65; color: #3C4A42">Architectural plans and detailed drafting integrating structural and mechanical systems; site inspections.</p>
+</div>
+</li>
+
+</ol>
+</section>
+
+<!-- SKILLS / EDUCATION -->
+<section id="skills" style="background: #14201A; color: #F3F2EE">
+<div style="max-width: 1280px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #CBB27A">Software</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; line-height: 1.15">Tools I design with</h2>
+<div dir="ltr" style="display: flex; flex-wrap: wrap; gap: 10px">
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">Revit</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">AutoCAD</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">ArchiCAD</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">3ds Max</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">Lumion</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">Twinmotion</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">D5 Render</span>
+
+<span style="border: 1px solid #3E5247; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 500">BIM</span>
+
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #CBB27A">Education</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; line-height: 1.15">B.Sc. (Honours) in Architecture and Built Environment</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #BFC8C2">Omdurman Ahlia University, Sudan</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #BFC8C2">Nov 2011 — Jan 2017</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #CBB27A">Languages</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: 34px; line-height: 1.15">Arabic &amp; English</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #BFC8C2">Comfortable working with clients, consultants, contractors and suppliers in both languages.</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="max-width: 1280px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2F5D46">Contact</p>
+<h2 style="margin: 0; font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; font-size: clamp(34px, 4vw, 52px); line-height: 1.05">Let’s build something together.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #3C4A42">Open to architecture, landscape and site-engineering opportunities and project collaborations in Riyadh.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 8px">
+<a href="mailto:razanyousif008@gmail.com" style="display: flex; flex-direction: column; gap: 4px; padding: 18px 22px; background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 16px; text-decoration: none; color: #14201A"><span style="font-size: 13px; font-weight: 600; color: #2F5D46">Email</span><span dir="ltr" style="font-size: 18px; font-weight: 600; text-align: start">razanyousif008@gmail.com</span></a>
+<a href="tel:+966532614304" style="display: flex; flex-direction: column; gap: 4px; padding: 18px 22px; background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 16px; text-decoration: none; color: #14201A"><span style="font-size: 13px; font-weight: 600; color: #2F5D46">Phone</span><span style="font-size: 18px; font-weight: 600"><bdi dir="ltr">+966 53 261 4304</bdi></span></a>
+<a href="https://github.com/elafyousif" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 16px; padding: 18px 22px; background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 16px; text-decoration: none; color: #14201A"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg><span style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 13px; font-weight: 600; color: #2F5D46">GitHub</span><span style="font-size: 18px; font-weight: 600"><bdi dir="ltr">github.com/elafyousif</bdi></span></span></a>
+<div style="display: flex; flex-direction: column; gap: 4px; padding: 18px 22px; background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 16px"><span style="font-size: 13px; font-weight: 600; color: #2F5D46">Location</span><span style="font-size: 18px; font-weight: 600">Riyadh, Saudi Arabia</span></div>
+</div>
+</div>
+<form style="flex: 1 1 520px; min-width: 0; background: #FFFFFF; border: 1px solid #E2E0D8; border-radius: 24px; padding: 36px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-content: start">
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 600">Name<input type="text" placeholder="Your name" style="height: 48px; padding: 0 14px; border: 1px solid #CFCCC1; border-radius: 12px; background: #FAFAF7"></label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 600">Email<input type="email" placeholder="you@company.com" style="height: 48px; padding: 0 14px; border: 1px solid #CFCCC1; border-radius: 12px; background: #FAFAF7"></label>
+<label style="grid-column: span 2; display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 600">Reason<select style="height: 48px; padding: 0 14px; border: 1px solid #CFCCC1; border-radius: 12px; background: #FAFAF7"><option>Job opportunity</option><option>Design project</option><option>Site supervision / consultancy</option><option>Other</option></select></label>
+<label style="grid-column: span 2; display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 600">Message<textarea rows="5" placeholder="Tell me about the role or project…" style="padding: 12px 14px; border: 1px solid #CFCCC1; border-radius: 12px; background: #FAFAF7; resize: vertical"></textarea></label>
+<button type="button" style="grid-column: span 2; height: 52px; border: 0; border-radius: 999px; background: #1C3B2C; color: #F3F2EE; font-weight: 600; font-size: 16px; cursor: pointer">Send message</button>
+</form>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #D4D1C6">
+<div style="max-width: 1280px; margin: 0 auto; padding: 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; color: #55625A">
+<span style="font-family: Archivo, 'IBM Plex Sans Arabic', sans-serif; font-weight: 800; letter-spacing: 0.04em; color: #14201A">RAZAN YOUSIF</span>
+<span>Architecture Engineer — Riyadh, Saudi Arabia</span>
+<span style="display: flex; gap: 20px; flex-wrap: wrap"><a href="https://github.com/elafyousif" target="_blank" rel="noopener" style="color: #2F5D46; font-weight: 600">GitHub</a><a href="mailto:razanyousif008@gmail.com" style="color: #2F5D46; font-weight: 600">Email</a><span>© 2026 Razan Yousif</span></span>
+</div>
+</footer>
+</div>
+</body>
+</html>
